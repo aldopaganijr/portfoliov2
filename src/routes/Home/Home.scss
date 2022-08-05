@@ -1,0 +1,27 @@
+.links-container-home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30vh;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.nav-link-home {
+    text-decoration: none !important;
+    color: #4682B4 !important;
+    font-size: 3rem !important;
+    padding: 0 !important;
+}
+
+.lowertext {
+    opacity: 10%;
+    font-size: 200px;
+    bottom: 0;
+    width: 100%;
+    position:absolute;
+    margin-left: 2rem;
+    color: grey;
+    font-family: 'Bebas Neue', cursive;
+   
+}

@@ -1,12 +1,13 @@
 import React from 'react'
 import "./ContactMe.scss"
+import Footer from "../../components/Footer/Footer"
 
 const ContactMe = () => {
 
   return (
 
     <div>
-        ContactMe
+        <Footer />
     </div>
 
   )

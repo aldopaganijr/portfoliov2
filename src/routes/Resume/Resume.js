@@ -1,12 +1,13 @@
 import React from 'react'
 import "./Resume.scss"
+import Footer from "../../components/Footer/Footer"
 
 const Resume = () => {
 
   return (
 
     <div>
-        Resume
+        <Footer/>
     </div>
 
   )
