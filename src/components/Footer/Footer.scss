@@ -1,0 +1,32 @@
+.footer-container {
+    text-align: center;
+    margin-top: 13vh;
+    background-color:#4e4e50;
+    padding: 8px;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
+
+.link a:hover, a:visited, a:active, a:link {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 7px;
+}
+
+.footer-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.react{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-size: 15px;
+    padding-right: 12px;
+    font-family: 'Poppins', sans-serif;
+}
