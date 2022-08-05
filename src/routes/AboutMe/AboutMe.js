@@ -7,6 +7,7 @@ const AboutMe = () => {
   return (
 
     <div>
+      <h2 id="main-tag">About Me</h2>
       <Footer />
     </div>
 

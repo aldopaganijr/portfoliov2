@@ -7,7 +7,8 @@ const Projects = () => {
   return (
 
     <div>
-        <Footer/>
+      <h2 id="main-tag">Projects</h2>
+      <Footer/>
     </div>
 
   )
