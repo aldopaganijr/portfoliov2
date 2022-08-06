@@ -22,7 +22,7 @@ const Home = () => {
             </Link>
           </div>
           <div className="lowertext">
-            <p> React Developer</p>
+            <p className='lower-text'> React Developer</p>
           </div>
       </div>
       <Outlet />

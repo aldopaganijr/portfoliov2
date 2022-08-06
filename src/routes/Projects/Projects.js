@@ -6,6 +6,7 @@ import Blockbuster from "../../assets/blockbuster.png";
 import Lofi from "../../assets/lofi.png";
 import {MdLiveTv} from "react-icons/md"
 import {FaGithub} from "react-icons/fa"
+import Skills from "../../components/Skills/Skills"
 
 
 const Projects = () => {
@@ -45,6 +46,7 @@ const Projects = () => {
               </p>
           </div>
       </div>
+      <Skills />
       <Footer/>
     </div>
 

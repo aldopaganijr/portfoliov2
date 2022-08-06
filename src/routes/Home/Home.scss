@@ -24,3 +24,15 @@
     color: #4e4e50 !important;
     font-family: 'Bebas Neue', cursive !important;
 }
+
+@media (max-width: 800px){
+    .lower-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15vw;
+        margin-right: 3.5rem;
+    }
+
+   
+}

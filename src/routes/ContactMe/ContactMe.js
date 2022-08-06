@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import "./ContactMe.scss"
 import Footer from "../../components/Footer/Footer"
+import Skills from "../../components/Skills/Skills"
 
 const ContactMe = () => {
 
@@ -18,6 +19,7 @@ const ContactMe = () => {
           <button type="submit" id="submit">Send</button>
         </form>
       </div>
+      <Skills />
      <Footer />
     </Fragment>
   )
