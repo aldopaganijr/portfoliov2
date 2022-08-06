@@ -2,6 +2,7 @@ import React from 'react'
 import "./AboutMe.scss"
 import Footer from "../../components/Footer/Footer"
 import Me from "../../assets/me.jpg";
+import Skills from "../../components/Skills/Skills"
 
 const AboutMe = () => {
 
@@ -26,6 +27,7 @@ const AboutMe = () => {
               </ul>
           </div>
         </div>
+        <Skills />
       <Footer />
     </div>
 
