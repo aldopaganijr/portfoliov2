@@ -20,6 +20,13 @@
         padding: 20px;
         font-size: 1.5rem;
     }
+    .nav-link {
+        transition: 0.7s ease;
+    }
+    
+    .nav-link:hover {
+        color: #4e4e50;
+    }
 }
 
 #logo{
