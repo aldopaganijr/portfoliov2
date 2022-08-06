@@ -1,0 +1,38 @@
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-image {
+    width: 350px;
+    height: 325px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 2.5rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sub-text {
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+hr {
+    margin-right: 15px;
+}
+.project-card {
+    width: 350px;
+    height: 325px;
+    box-shadow: 5px 5px 20px #4682B4;
+    margin-top: 4rem;
+    margin-bottom: 20rem;
+}
