@@ -1,11 +1,12 @@
 .footer-container {
-    text-align: center;
-    margin-top: 13vh;
+    text-align: center;;
     background-color:#4e4e50;
     padding: 8px;
-    position:absolute;
+    position:relative;
     bottom:0;
+    padding-bottom: 0;
     width: 100%;
+    
 }
 
 .link  a:hover, a:visited, a:active, a:link {
