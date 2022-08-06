@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import "./Navigation.scss"
 import { Link, Outlet } from 'react-router-dom'
+import {FaHome} from "react-icons/fa"
 
 const Navigation = () => {
 
@@ -8,7 +9,7 @@ const Navigation = () => {
     <Fragment>
       <div className='navigation-container'>
         <Link  id="logo" className="logo-container" to="/">
-          Aldo Pagani Jr.
+          <FaHome />
         </Link>
         <div className='links-container'>
           <Link className="nav-link" to="/AboutMe">
