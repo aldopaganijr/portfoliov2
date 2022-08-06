@@ -17,7 +17,7 @@ const AboutMe = () => {
               <p>I am a React Frontend Developer with a background in photography & videography. I have a serious passion for creating responsive, feature rich websites with a great user experience. If I don't have a monitor in front of me, you will most likely find me wandering around with my camera.</p>
           </div>
           <div class="skills">
-              <h2 id="list-heading">Skills & languages</h2>
+              <h2 id="list-heading">Expertise</h2>
               <ul class="languages">
                   <li>React</li>
                   <li>Redux</li>
