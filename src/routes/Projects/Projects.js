@@ -9,13 +9,14 @@ import {FaGithub} from "react-icons/fa"
 import Skills from "../../components/Skills/Skills"
 import { motion } from "framer-motion"
 import {pageAnimation} from "../../Animation";
+import { titleAnim } from '../../Animation';
 
 
 const Projects = () => {
 
   return (
         <div className='projects-container'>
-          <h2 id="main-tag">Projects</h2>
+          <motion.h2 exit="exit" variants={titleAnim} initial="hidden" animate="show"  id="main-tag">Projects</motion.h2>
           <motion.div exit="exit" variants={pageAnimation} initial="hidden" animate="show" className="card-container">
             <div className="project-card">
                 <img className="project-image" src={TheGrowRoom}  alt="thegrowroom" />

@@ -43,7 +43,7 @@ export const pageAnimation = {
   };
 
   export const titleAnim = {
-    hidden: { x: 200 },
+    hidden: { x: -500 },
     show: {
       x: 0,
       transition: { duration: 0.75, ease: "easeOut" },

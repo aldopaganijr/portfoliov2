@@ -3,14 +3,17 @@ import "./AboutMe.scss"
 import Footer from "../../components/Footer/Footer"
 import Me from "../../assets/me.jpg";
 import Skills from "../../components/Skills/Skills"
+import { motion } from "framer-motion"
+import {pageAnimation} from "../../Animation";
+import { titleAnim } from '../../Animation';
 
 const AboutMe = () => {
 
   return (
 
     <div>
-      <h2 id="main-tag">About Me</h2>
-        <div class="about-container">
+      <motion.h2 exit="exit" variants={titleAnim} initial="hidden" animate="show"  id="main-tag">About Me</motion.h2>
+        <motion.div exit="exit" variants={pageAnimation} initial="hidden" animate="show" class="about-container">
           <div class="myPic">
               <img class="myself" src={Me} alt="self portrait" />
           </div>
@@ -26,7 +29,7 @@ const AboutMe = () => {
                   <li>Native</li>
               </ul>
           </div>
-        </div>
+        </motion.div>
         <Skills />
       <Footer />
     </div>

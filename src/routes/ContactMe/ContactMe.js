@@ -2,13 +2,16 @@ import React, { Fragment } from 'react'
 import "./ContactMe.scss"
 import Footer from "../../components/Footer/Footer"
 import Skills from "../../components/Skills/Skills"
+import { motion } from "framer-motion"
+import {pageAnimation} from "../../Animation";
+import { titleAnim } from '../../Animation';
 
 const ContactMe = () => {
 
   return (
     <Fragment>
-      <h2 id="main-tag">Contact</h2>
-      <div className='contact-container'>
+      <motion.h2 exit="exit" variants={titleAnim} initial="hidden" animate="show" id="main-tag">Contact</motion.h2>
+      <motion.div exit="exit" variants={pageAnimation} initial="hidden" animate="show" className='contact-container'>
         <form action="https://formsubmit.co/899c98d11aff6fd7b45223005b2302b7" method="POST">
           <h3>Lets get in touch</h3>
           <input type="text" id="name" placeholder="Your Name" name="name" required />
@@ -18,7 +21,7 @@ const ContactMe = () => {
           <input type="text" name="_captcha" value="false" style={{display: "none"}} />
           <button type="submit" id="submit">Send</button>
         </form>
-      </div>
+      </motion.div>
       <Skills />
      <Footer />
     </Fragment>
