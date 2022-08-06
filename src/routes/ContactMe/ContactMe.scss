@@ -47,3 +47,13 @@ form button {
     margin-top: 1rem;
     font-family: 'Poppins', sans-serif;
 }
+
+/* MOBILE FIXES */
+
+@media (max-width: 480px) {
+    #main-tag {
+        font-size: 70px;
+        text-align: center;
+        padding-right: 15px;
+    }
+}
