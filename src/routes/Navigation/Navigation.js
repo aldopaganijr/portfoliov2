@@ -5,7 +5,6 @@ import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import { Link, Outlet } from 'react-router-dom'
 import { IconContext } from 'react-icons';
-import {FaHome} from "react-icons/fa"
 
 const Navigation = () => {
 
@@ -28,9 +27,11 @@ const Navigation = () => {
                 <AiIcons.AiOutlineClose />
               </Link>
             </li>
-              <Link className="logo" to="/">
-                <FaHome />
-              </Link>
+              <li className='nav-links-li'>
+                <Link className="nav-link" to="/">
+                  Home
+                </Link>
+              </li>
               <li className='nav-links-li'>
                 <Link className="nav-link" to="/AboutMe">
                     About Me
