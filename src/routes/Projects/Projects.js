@@ -3,6 +3,7 @@ import "./Projects.scss";
 import Footer from "../../components/Footer/Footer";
 import TheGrowRoom from "../../assets/theGrowRoom.png";
 import Blockbuster from "../../assets/blockbuster.png";
+import TheBlankCanvas from "../../assets/theblankcanvas.netlify.app_Shop.png"
 import Lofi from "../../assets/lofi.png";
 import {MdLiveTv} from "react-icons/md"
 import {FaGithub} from "react-icons/fa"
@@ -19,6 +20,17 @@ const Projects = () => {
         <div className='projects-container'>
           <motion.h2 exit="exit" variants={titleAnim} initial="hidden" animate="show"  id="main-tag">Projects</motion.h2>
           <motion.div exit="exit" variants={pageAnimation} initial="hidden" animate="show" className="card-container">
+            <div className="project-card">
+              <img className="project-image" src={TheBlankCanvas}  alt="thegrowroom" />
+              <h3>The Blank Canvas</h3>
+              <p className="sub-text">This project was made using the MERN Stack, Framer Motion, Bootstrap, Stripe, Sass</p>
+              <hr/>
+              <p className="sub-text">
+                  <a id="direct-link" href="https://theblankcanvas.netlify.app/" alt="theblankcanvas"><MdLiveTv /></a>
+                  <a id="direct-link" href="https://github.com/aldopaganijr/art-frontend" alt="thegrowroom"><FaGithub /></a>
+                  <a id="direct-link" href="/"><FaReact /></a>
+              </p>
+            </div>
             <div className="project-card">
                 <img className="project-image" src={TheGrowRoom}  alt="thegrowroom" />
                 <h3>The Grow Room</h3>
