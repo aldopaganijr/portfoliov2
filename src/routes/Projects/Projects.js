@@ -10,6 +10,7 @@ import Skills from "../../components/Skills/Skills"
 import { motion } from "framer-motion"
 import {pageAnimation} from "../../Animation";
 import { titleAnim } from '../../Animation';
+import {FaReact} from "react-icons/fa"
 
 
 const Projects = () => {
@@ -26,6 +27,7 @@ const Projects = () => {
                 <p className="sub-text">
                     <a id="direct-link" href="https://thegrowroom.netlify.app/" alt="thegrowroom"><MdLiveTv /></a>
                     <a id="direct-link" href="https://github.com/aldopaganijr/flower-shop" alt="thegrowroom"><FaGithub /></a>
+                    <a id="direct-link" href="/"><FaReact /></a>
                 </p>
             </div>
             <div className="project-card">
@@ -36,6 +38,7 @@ const Projects = () => {
                 <p className="sub-text">
                     <a id="direct-link" href="https://blockbusterrated.netlify.app/" alt="blockbuster"><MdLiveTv /></a>
                     <a id="direct-link" href="https://github.com/aldopaganijr/react-movie" alt="blockbuster"><FaGithub /></a>
+                    <a id="direct-link" href="/"><FaReact /></a>
                 </p>
             </div>
             <div className="project-card">
@@ -46,6 +49,7 @@ const Projects = () => {
                 <p className="sub-text">
                     <a id="direct-link" href="https://aldopaganijr.github.io/music-player/" alt="music-player"><MdLiveTv /></a>
                     <a id="direct-link" href="https://github.com/aldopaganijr/music-player" alt="music-player"><FaGithub /></a>
+                    <a id="direct-link" href="/"><FaReact /></a>
                 </p>
             </div>
       </motion.div>
