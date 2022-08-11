@@ -26,7 +26,7 @@ const Projects = () => {
               <p className="sub-text">This project was made using MERN, Framer Motion, Bootstrap, Stripe, Sass</p>
               <hr/>
               <p className="sub-text">
-                  <a id="direct-link" href="https://theblankcanvas.netlify.app/" alt="theblankcanvas"><MdLiveTv /></a>
+                  <a id="direct-link" href="https://the-blank-canvas.netlify.app/" alt="theblankcanvas"><MdLiveTv /></a>
                   <a id="direct-link" href="https://github.com/aldopaganijr/theblankcanvasFE" alt="thegrowroom"><FaGithub /></a>
                   <a id="direct-link" href="/"><FaReact /></a>
               </p>
