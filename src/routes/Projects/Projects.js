@@ -27,7 +27,7 @@ const Projects = () => {
               <hr/>
               <p className="sub-text">
                   <a id="direct-link" href="https://theblankcanvas.netlify.app/" alt="theblankcanvas"><MdLiveTv /></a>
-                  <a id="direct-link" href="https://github.com/aldopaganijr/art-frontend" alt="thegrowroom"><FaGithub /></a>
+                  <a id="direct-link" href="https://github.com/aldopaganijr/theblankcanvasFE" alt="thegrowroom"><FaGithub /></a>
                   <a id="direct-link" href="/"><FaReact /></a>
               </p>
             </div>
