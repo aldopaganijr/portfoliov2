@@ -23,7 +23,7 @@ const Projects = () => {
             <div className="project-card">
               <img className="project-image" src={TheBlankCanvas}  alt="thegrowroom" />
               <h3>The Blank Canvas</h3>
-              <p className="sub-text">This project was made using MERN, Framer Motion, Bootstrap, Stripe, Sass</p>
+              <p className="sub-text">MERN Stack, Framer Motion, Bootstrap, Sass</p>
               <hr/>
               <p className="sub-text">
                   <a id="direct-link" href="https://the-blank-canvas.netlify.app/" alt="theblankcanvas"><MdLiveTv /></a>
@@ -34,7 +34,7 @@ const Projects = () => {
             <div className="project-card">
                 <img className="project-image" src={TheGrowRoom}  alt="thegrowroom" />
                 <h3>The Grow Room</h3>
-                <p className="sub-text">This project was made using React, Sass, Framer Motion, Firebase, Stripe</p>
+                <p className="sub-text">React, Sass, Framer Motion, Firebase</p>
                 <hr/>
                 <p className="sub-text">
                     <a id="direct-link" href="https://thegrowroom.netlify.app/" alt="thegrowroom"><MdLiveTv /></a>
@@ -45,7 +45,7 @@ const Projects = () => {
             <div className="project-card">
                 <img className="project-image" src={Blockbuster} alt="blockbuster" />
                 <h3>Blockbuster Movie</h3>
-                <p className="sub-text">This project was made using React, Sass, Framer Motion, Material UI</p>
+                <p className="sub-text">React, Sass, Framer Motion, Material UI</p>
                 <hr/>
                 <p className="sub-text">
                     <a id="direct-link" href="https://blockbusterrated.netlify.app/" alt="blockbuster"><MdLiveTv /></a>
@@ -56,7 +56,7 @@ const Projects = () => {
             <div className="project-card">
                 <img className="project-image"  src={Lofi} alt="music-player" />
                 <h3>Music Player</h3>
-                <p className="sub-text">This project was made using React & Sass, Framer Motion</p>
+                <p className="sub-text">React, Sass, Framer Motion</p>
                 <hr/>
                 <p className="sub-text">
                     <a id="direct-link" href="https://aldopaganijr.github.io/music-player/" alt="music-player"><MdLiveTv /></a>
