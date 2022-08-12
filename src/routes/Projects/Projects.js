@@ -23,7 +23,7 @@ const Projects = () => {
             <div className="project-card">
               <img className="project-image" src={TheBlankCanvas}  alt="thegrowroom" />
               <h3>The Blank Canvas</h3>
-              <p className="sub-text">MERN Stack, Framer Motion, Bootstrap, Sass</p>
+              <p className="sub-text">MERN Stack, Framer Motion, Bootstrap, Sass, Styled Components</p>
               <hr/>
               <p className="sub-text">
                   <a id="direct-link" href="https://the-blank-canvas.netlify.app/" alt="theblankcanvas"><MdLiveTv /></a>
