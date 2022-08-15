@@ -3,7 +3,7 @@
 
 ![aldopaganijr netlify app_Projects](https://user-images.githubusercontent.com/105445990/184559455-d6fbdb7f-fd1c-4421-9379-ba18bc25f8ce.png)
 
-- 🗓 Project Status? **Complete**
+- 🗓 Project Status? **Completed**
 
 - 🌱 Im currently learning **Vue**
 
