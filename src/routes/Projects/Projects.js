@@ -22,7 +22,7 @@ const Projects = () => {
           <motion.div exit="exit" variants={pageAnimation} initial="hidden" animate="show" className="card-container">
             <div className="project-card">
               <img className="project-image" src={TheBlankCanvas}  alt="thegrowroom" />
-              <h3>The Blank Canvas</h3>
+              <h3>E-Commerce Site</h3>
               <p className="sub-text">MERN Stack, Framer Motion, Bootstrap, Sass, Styled Components</p>
               <hr/>
               <p className="sub-text">
@@ -33,7 +33,7 @@ const Projects = () => {
             </div>
             <div className="project-card">
                 <img className="project-image" src={TheGrowRoom}  alt="thegrowroom" />
-                <h3>The Grow Room</h3>
+                <h3>E-Commerce Site</h3>
                 <p className="sub-text">React, Sass, Framer Motion, Firebase</p>
                 <hr/>
                 <p className="sub-text">
@@ -44,23 +44,12 @@ const Projects = () => {
             </div>
             <div className="project-card">
                 <img className="project-image" src={Blockbuster} alt="blockbuster" />
-                <h3>Blockbuster Movie</h3>
+                <h3>API App</h3>
                 <p className="sub-text">React, Sass, Framer Motion, Material UI</p>
                 <hr/>
                 <p className="sub-text">
                     <a id="direct-link" href="https://blockbusterrated.netlify.app/" alt="blockbuster"><MdLiveTv /></a>
                     <a id="direct-link" href="https://github.com/aldopaganijr/react-movie" alt="blockbuster"><FaGithub /></a>
-                    <a id="direct-link" href="/"><FaReact /></a>
-                </p>
-            </div>
-            <div className="project-card">
-                <img className="project-image"  src={Lofi} alt="music-player" />
-                <h3>Music Player</h3>
-                <p className="sub-text">React, Sass, Framer Motion</p>
-                <hr/>
-                <p className="sub-text">
-                    <a id="direct-link" href="https://aldopaganijr.github.io/music-player/" alt="music-player"><MdLiveTv /></a>
-                    <a id="direct-link" href="https://github.com/aldopaganijr/music-player" alt="music-player"><FaGithub /></a>
                     <a id="direct-link" href="/"><FaReact /></a>
                 </p>
             </div>
