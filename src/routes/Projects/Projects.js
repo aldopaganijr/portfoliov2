@@ -4,7 +4,6 @@ import Footer from "../../components/Footer/Footer";
 import TheGrowRoom from "../../assets/theGrowRoom.png";
 import Blockbuster from "../../assets/blockbuster.png";
 import TheBlankCanvas from "../../assets/theblankcanvas.netlify.app_Shop.png"
-import Lofi from "../../assets/lofi.png";
 import {MdLiveTv} from "react-icons/md"
 import {FaGithub} from "react-icons/fa"
 import Skills from "../../components/Skills/Skills"
