@@ -2,11 +2,9 @@ import React from 'react'
 import "./Skills.scss"
 import {FaReact} from "react-icons/fa"
 import {FaVuejs} from "react-icons/fa"
-import {FaNodeJs} from "react-icons/fa"
 import {FaAngular} from "react-icons/fa"
-import {SiExpress} from "react-icons/si"
-import {SiMongodb} from "react-icons/si"
-import {SiSvelte} from "react-icons/si"
+import {SiTypescript} from "react-icons/si"
+import {SiJavascript} from "react-icons/si"
 
 
 
@@ -17,13 +15,11 @@ const Skills = () => {
 
     <div className='skills-container'>
         <ul className='icon-list'>
-            <li className='icon'><FaAngular /></li>
-            <li className='icon'><SiSvelte /></li>
-            <li className='icon'><FaVuejs /></li>
+            <li className='icon'><SiJavascript /></li>
+            <li className='icon'><SiTypescript /></li>
             <span className='main'><li><FaReact /></li></span>
-            <li className='icon'><SiMongodb /></li>
-            <li className='icon'><FaNodeJs /></li>
-            <li className='icon'><SiExpress /></li>
+            <li className='icon'><FaAngular /></li>
+            <li className='icon'><FaVuejs /></li>
         </ul>
     </div>
 
